@@ -18,6 +18,7 @@ body {
 
 .content {
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 
 #mainNavbar {
@@ -26,7 +27,7 @@ body {
 }
 
 #mainNavbar .nav-link {
-  color: white;
+  color: lightblue;
 }
 
 #mainNavbar .nav-link:hover {
@@ -45,6 +46,11 @@ body {
 #headingGroup h1 {
   font-weight: 100;
   font-size: 4rem;
+}
+
+.navbar.scrolled {
+  background: rgb(255,250,205);
+  transition: background 500ms;
 }
 
 /* This says at 1200px screen size, change the font-size to 3rem. */
